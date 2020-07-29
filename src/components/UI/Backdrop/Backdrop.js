@@ -1,8 +1,21 @@
 import React from 'react';
-import classes from './Backdrop.module.css';
+import Backdrop from '@material-ui/core/Backdrop';
+import { makeStyles } from '@material-ui/core/styles';
 
-const backdrop = (props) => (
-    props.show ? <div className={classes.Backdrop} onClick={props.clicked}></div> : null
-)
+const useStyles = makeStyles((theme) => ({
+  backdrop: {
+    zIndex: 100,
+    color: '#fff',
+  },
+}));
 
-export default backdrop;
+const SimpleBackdrop = (props) => {
+  const classes = useStyles();
+  return (
+    <div>
+      <Backdrop className={classes.backdrop} open={props.show} onClick={props.clicked} />
+    </div>
+  );
+}
+
+export default SimpleBackdrop;
