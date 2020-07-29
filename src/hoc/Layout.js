@@ -1,11 +1,13 @@
 import React from 'react';
+import Toolbar from '../components/Navigation/Toolbar/Toolbar';
+import classes from './Layout.module.css';
 
 const layout = (props) => {
     return (
-        <React.Fragment>
-        <div>Toolbar, SideDrawer</div>
+        <div className={classes.Layout}>
+        <Toolbar></Toolbar>
         <main>{props.children}</main>
-        </React.Fragment>
+        </div>
     )
 }
 
