@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './hoc/Layout';
-import Content from './container/Content/Content';
+import Content from './containers/Content/Content';
 
 function App() {
   return (
