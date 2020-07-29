@@ -1,11 +1,13 @@
 import React from 'react';
+import Layout from './hoc/Layout'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Layout>
+        <p>test</p>
+      </Layout>
     </div>
   );
 }
