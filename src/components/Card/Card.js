@@ -16,14 +16,20 @@ import classes from './Card.module.css'
       title={props.title}
       />
       <div className={classes.details}>
-        <CardContent className={classes.content}>
-          <Typography component="h5" variant="h5">
-            Shiraaz
+        <CardContent className={classes.text}>
+          <Typography component="h6" variant="h6">
+          {props.title}
           </Typography>
           <Typography variant="subtitle1" color="textSecondary">
-            {props.title}
+          {props.publisher}
           </Typography>
         </CardContent>
+        <Typography variant="subtitle2" className={classes.date}>
+          25th July 2019
+        </Typography>
+          <Typography variant="subtitle2" className={classes.time}>
+          2:25
+          </Typography>
       </div>
     </Card>
   );
