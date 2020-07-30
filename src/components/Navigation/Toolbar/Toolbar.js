@@ -10,6 +10,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 import classes from './Toolbar.module.css';
 
+/*** Toolbar Component ***/
+
+//Toolbar component styles
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -31,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const ButtonAppBar = (props) => {
+  //Setting the styles to materialClasses 
   const materialClasses = useStyles();
 
   return (

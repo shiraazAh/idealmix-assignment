@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 
-
+// WrapperComponent and axios instance is passed 
 const WithErrorHandler = (WrappedComponent, axios) => {
 
     return class extends Component {
-
+    
+        //Error State
         state = {
             error: null
         }
 
+        //Dealing with error , If there is an error it is passed to the state
         componentWillMount() {
             this.reqInterceptor = axios.interceptors.request.use(req => {
                 this.setState({error: null})
@@ -22,10 +24,6 @@ const WithErrorHandler = (WrappedComponent, axios) => {
         componentWillUnmount () {
             axios.interceptors.request.eject(this.reqInterceptor);
             axios.interceptors.response.eject(this.resInterceptor);
-        }
-
-        errorhandler = () => {
-            this.setState({error: null});
         }
 
         render () {

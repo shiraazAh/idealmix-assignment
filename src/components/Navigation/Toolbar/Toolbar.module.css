@@ -4,10 +4,13 @@
 
 
 @media (max-width: 499px) {
+
+    /* display nothing when at desktop size */
     .DesktopOnly {
         display: none;
     }
 
+    /* Logo changed to the top right */
     .Logo {
         position: absolute;
         right: 0;

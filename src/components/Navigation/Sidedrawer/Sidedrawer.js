@@ -9,6 +9,10 @@ import Logo from '../../Logo/Logo';
 
 import classes from './Sidedrawer.module.css';
 
+/*** Side drawer Component ***/
+
+//Side drawer Styles 
+
 const useStyles = makeStyles({
   list: {
     width: 250,
@@ -22,6 +26,8 @@ const useStyles = makeStyles({
 });
 
 const TemporaryDrawer = (props) => {
+
+  //Setting side drawer styles
   const materialClasses = useStyles();
 
   const list = (anchor) => (

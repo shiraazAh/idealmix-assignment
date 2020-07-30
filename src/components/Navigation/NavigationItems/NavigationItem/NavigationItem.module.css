@@ -24,6 +24,7 @@
 
 @media (min-width: 500px) {
 
+    /* Navigation Items */
     .NavigationItem {
         margin: 0;
         margin-right: 5px; 
@@ -33,7 +34,7 @@
         align-items: center;
     }
 
-    
+    /* Navigation Links */
     .NavigationItem a {
         color: white;
         height: 100%;
@@ -41,6 +42,7 @@
         border-bottom: 4px solid transparent;
     }
     
+    /* Navigation when hovered or active */
     .NavigationItem a:hover,
     .NavigationItem a:active,
     .NavigationItem a.active {
@@ -53,6 +55,7 @@
 
 @media (min-width: 600px) {
     
+    /* Navigation Links */
     .NavigationItem a {
         color: white;
         height: 100%;
@@ -60,6 +63,7 @@
         border-bottom: 4px solid transparent;
     }
     
+    /* Navigation when hovered or active */
     .NavigationItem a:hover,
     .NavigationItem a:active,
     .NavigationItem a.active {
