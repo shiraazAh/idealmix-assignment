@@ -1,28 +1,57 @@
 import React from 'react';
-import BackDrop from '../../UI/Backdrop/Backdrop';
-import Logo from '../../Logo/Logo';
+import clsx from 'clsx';
+import { makeStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import Divider from '@material-ui/core/Divider';
 import NavigationItems from '../Navigation Items/NavigationItems';
+import Logo from '../../Logo/Logo';
+
 import classes from './Sidedrawer.module.css';
 
-const sideDrawer = (props) => {
+const useStyles = makeStyles({
+  list: {
+    width: 250,
+  },
+  fullList: {
+    width: 'auto',
+  },
+  navigation: {
+      marginLeft: "0px"
+  }
+});
 
-    let assignedClasses = [classes.SideDrawer, classes.Close];
+const TemporaryDrawer = (props) => {
+  const materialClasses = useStyles();
 
-    if(props.open) {
-        assignedClasses = [classes.SideDrawer, classes.Open];
-    }
+  const list = (anchor) => (
+    <div
+      className={clsx(materialClasses.list, {
+        [materialClasses.fullList]: anchor === 'top' || anchor === 'bottom',
+      })}
+      role="presentation"
+      onClick={props.click}
+      onKeyDown={props.click}
+    >
+    <div className={classes.Logo}>
+        <Logo />
+    </div>
+    <Divider />
+    <List className={materialClasses.navigation}>
+        <NavigationItems />
+    </List>
+    </div>
+  );
 
-    return (
-        <React.Fragment>
-            <BackDrop show={props.open} clicked={props.click}></BackDrop>
-            <div className={assignedClasses.join(' ')}>
-                <div className={classes.Logo}>
-                    <Logo />
-                </div>
-                <NavigationItems />
-            </div>
+  return (
+    <div>
+        <React.Fragment >
+          <Drawer anchor="left" open={props.open} onClose={props.click}>
+            {list("left")}
+          </Drawer>
         </React.Fragment>
-    )
-};
+    </div>
+  );
+}
 
-export default sideDrawer;
+export default TemporaryDrawer;
