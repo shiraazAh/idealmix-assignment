@@ -1,5 +1,5 @@
 # Idealmix Intern Take Home Assignment
-  The project was to create a react app following the set of instructions given by the team. 
+  The project was to create a responsive react app following the set of instructions given by the team. 
 ## View hosted version
   - To Preview the github hosted version, Click:- https://shiraazAh.github.io/idealmix-assignment/ 
 ## Installation
