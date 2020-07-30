@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b54ab171026faa122e15d038d9727dc",
+    "revision": "ece6e15df96525b719f4782284cfd86d",
     "url": "/idealmix-assignment/index.html"
   },
   {
-    "revision": "fb732353366db70adc56",
+    "revision": "fab780a67047f2d588ad",
     "url": "/idealmix-assignment/static/css/main.460b93d5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/idealmix-assignment/static/js/2.8ac1da28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb732353366db70adc56",
-    "url": "/idealmix-assignment/static/js/main.7e96ef2a.chunk.js"
+    "revision": "fab780a67047f2d588ad",
+    "url": "/idealmix-assignment/static/js/main.1829b7a0.chunk.js"
   },
   {
     "revision": "7760bbe39f2631b75a48",
