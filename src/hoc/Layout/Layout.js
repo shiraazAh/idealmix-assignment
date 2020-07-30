@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Toolbar from '../components/Navigation/Toolbar/Toolbar';
-import SideDrawer from '../components/Navigation/Sidedrawer/Sidedrawer';
+import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import SideDrawer from '../../components/Navigation/Sidedrawer/Sidedrawer';
 import classes from './Layout.module.css';
 
 const Layout = (props) => {
