@@ -1,3 +1,4 @@
+/* Main Card element */
 .root {
     display: flex;
     flex-direction: column;
@@ -6,31 +7,35 @@
     height: 100%;
 }
 
+/* Component Which contains the title, subtitle, time and date elements */
 .details {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
+/* Date Element */
 .date {
     color: rgb(97, 97, 97);
     border-top: solid 1px #CF8F2E;
     padding: 2px 10px 2px 16px;
-    left: 0;                        /* horizontal alignment */
+    left: 0;                     
     bottom: 0;
     right: auto;   
 }
 
+/* Time Element */
 .time {
     position: absolute;
     background-color: #CF8F2E;
     padding: 2px 10px 2px 10px;
     color: white;
-    left: auto;                        /* horizontal alignment */
+    left: auto;                      
     bottom: 0;
     right: 0;  
 }
 
+/* Image Element */
 .cover {
     box-sizing: border-box;
     width: 100%;
@@ -39,6 +44,7 @@
 
 @media (min-width: 500px) {
 
+    /* Main card element flex changed to row */
     .root {
         flex-direction: row;
         margin: 20px auto;
@@ -93,6 +99,7 @@
 
 @media (min-width: 750px) {
 
+    /* Card Element Size Changed */
     .root {
         height: 150px;
         width: 700px;
