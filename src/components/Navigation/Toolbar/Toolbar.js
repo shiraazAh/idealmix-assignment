@@ -17,17 +17,17 @@ const useStyles = makeStyles((theme) => ({
   menuButton: {
     marginRight: theme.spacing(2),
     ['@media (min-width:500px)']: { // eslint-disable-line no-useless-computed-key
-        display: 'none'
+        display: 'none',
       }
   },
   title: {
     flexGrow: 1,
-    marginLeft: theme.spacing(2),
     textAlign: "center",
   },
   toolbar: {
-      background: "#CF8F2E",
-  }
+      background: "#CF8F2E", 
+  }, 
+
 }));
 
 const ButtonAppBar = (props) => {
@@ -41,7 +41,7 @@ const ButtonAppBar = (props) => {
                 <MenuIcon />
             </IconButton>
             <div className={classes.Logo}>
-                <Logo />
+              <Logo />
             </div>
             <Typography variant="h5" className={materialClasses.title}>
             </Typography>
