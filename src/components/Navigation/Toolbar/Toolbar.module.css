@@ -4,8 +4,14 @@
 
 
 @media (max-width: 499px) {
-    .Logo, .DesktopOnly {
+    .DesktopOnly {
         display: none;
     }
 
+    .Logo {
+        position: absolute;
+        right: 0;
+        top: 3px;
+        margin-right: 10px;
+    }
 }
