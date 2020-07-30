@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/idealmix-assignment/static/css/main.460b93d5.chunk.css",
-    "main.js": "/idealmix-assignment/static/js/main.1829b7a0.chunk.js",
-    "main.js.map": "/idealmix-assignment/static/js/main.1829b7a0.chunk.js.map",
+    "main.js": "/idealmix-assignment/static/js/main.8f6fd44a.chunk.js",
+    "main.js.map": "/idealmix-assignment/static/js/main.8f6fd44a.chunk.js.map",
     "runtime-main.js": "/idealmix-assignment/static/js/runtime-main.3acfe636.js",
     "runtime-main.js.map": "/idealmix-assignment/static/js/runtime-main.3acfe636.js.map",
     "static/js/2.8ac1da28.chunk.js": "/idealmix-assignment/static/js/2.8ac1da28.chunk.js",
     "static/js/2.8ac1da28.chunk.js.map": "/idealmix-assignment/static/js/2.8ac1da28.chunk.js.map",
     "index.html": "/idealmix-assignment/index.html",
-    "precache-manifest.383c0a017fda64239713d22671885518.js": "/idealmix-assignment/precache-manifest.383c0a017fda64239713d22671885518.js",
+    "precache-manifest.45589c60ef9024fec27b923b05c574f2.js": "/idealmix-assignment/precache-manifest.45589c60ef9024fec27b923b05c574f2.js",
     "service-worker.js": "/idealmix-assignment/service-worker.js",
     "static/css/main.460b93d5.chunk.css.map": "/idealmix-assignment/static/css/main.460b93d5.chunk.css.map",
     "static/js/2.8ac1da28.chunk.js.LICENSE.txt": "/idealmix-assignment/static/js/2.8ac1da28.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3acfe636.js",
     "static/js/2.8ac1da28.chunk.js",
     "static/css/main.460b93d5.chunk.css",
-    "static/js/main.1829b7a0.chunk.js"
+    "static/js/main.8f6fd44a.chunk.js"
   ]
 }
