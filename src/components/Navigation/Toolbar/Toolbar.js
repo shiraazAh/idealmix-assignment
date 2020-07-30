@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
   toolbar: {
-      background: "grey",
+      background: "#CF8F2E",
   }
 }));
 
@@ -44,7 +44,6 @@ const ButtonAppBar = (props) => {
                 <Logo />
             </div>
             <Typography variant="h5" className={materialClasses.title}>
-                Pizza
             </Typography>
             <nav className={classes.DesktopOnly}>
                 <NavigationItems />
