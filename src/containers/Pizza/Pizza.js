@@ -3,7 +3,7 @@ import axios from '../../axios-pizza';
 import Card from '../../components/Card/Card';
 import withErrorHandler from '../../hoc/withErrorHandler/withError'
 import Spinner from '../../components/UI/Spinner/Spinner';
-import classes from './Content.module.css'
+import classes from './Pizza.module.css'
 
 class Content extends Component {
 
@@ -35,7 +35,7 @@ class Content extends Component {
         } 
 
         return (
-            <div className={classes.Content}>
+            <div className={classes.Pizza}>
                 {cards}
             </div>
         )

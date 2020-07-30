@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './hoc/Layout';
-import Content from './containers/Content/Content';
+import Content from './containers/Pizza/Pizza';
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
 import { Route, Switch } from 'react-router-dom'
 
