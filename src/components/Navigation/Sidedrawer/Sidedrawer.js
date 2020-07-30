@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
-import NavigationItems from '../Navigation Items/NavigationItems';
+import NavigationItems from '../NavigationItems/NavigationItems';
 import Logo from '../../Logo/Logo';
 
 import classes from './Sidedrawer.module.css';
